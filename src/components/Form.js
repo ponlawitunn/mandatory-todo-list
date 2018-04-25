@@ -7,7 +7,8 @@ class Form extends Component {
         return(
         <div className="Form">
         <form onSubmit={(event) => this.props.handleSubmit(event)}>
-            <input
+            <input 
+            className="Input"
             placeholder="Enter if you're Done..."
             onChange={(event) => this.props.handleChange(event)}
             value={this.props.inputValue}

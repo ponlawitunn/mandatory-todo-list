@@ -4,10 +4,6 @@ import Task from './Task';
 
 class List extends Component {
 
-    state = {
-
-    }
-
     render() {
         return (
             <div className="List">
